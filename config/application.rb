@@ -21,5 +21,6 @@ module AngularjsCars
     # config.i18n.default_locale = :de
     config.assets.paths += ["#{Rails.root}/app/assets/javascript/controllers"]
     config.assets.paths += ["#{Rails.root}/app/assets/javascript/services"]
+    config.assets.paths += ["#{Rails.root}/app/assets/javascript/lib"]
   end
 end

@@ -1268,3 +1268,3362 @@ Started GET "/cars" for 127.0.0.1 at 2014-04-22 15:54:05 -0300
 Processing by CarsController#index as JSON
   [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
 Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 15:57:10 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 15:57:10 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 15:57:10 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 15:57:10 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 15:57:11 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 15:57:11 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (1.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:01:45 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:01:45 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:01:45 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:01:45 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:01:46 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:01:46 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:03:54 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:03:54 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:03:54 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:03:54 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:03:54 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:03:54 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:03:54 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:04:07 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:04:07 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:04:07 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:04:07 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:04:07 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:04:07 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:04:07 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:05:29 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 64ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:05:30 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:05:30 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:05:30 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:05:30 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:05:30 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:05:30 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 20ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:08:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:08:16 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:08:16 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:08:16 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:08:16 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:08:16 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:08:16 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 12ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:23:12 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:23:12 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:23:12 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:23:12 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:23:12 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:23:12 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:23:12 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:23:37 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:23:37 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:23:37 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:23:37 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:23:37 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:23:37 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:23:37 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:23:56 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:23:56 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:23:56 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:23:56 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:23:56 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:23:57 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:23:57 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:24:10 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:24:10 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:24:10 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:24:10 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:24:11 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:24:11 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:24:11 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:25:02 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:25:02 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:25:02 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:25:02 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:25:02 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:25:02 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:25:02 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:27:29 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:27:29 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:27:29 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:27:29 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:27:29 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:27:30 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:27:30 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 6ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:30:14 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:30:14 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:30:14 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:30:14 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:30:14 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:30:14 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:30:14 -0300
+Processing by CarsController#index as JSON
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "cars" ("created_at", "manufacturer", "model", "owner_email", "owner_name", "plate", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-04-22 19:30:14.957314"], ["manufacturer", "Fiat"], ["model", "Punto"], ["owner_email", "oliveira.rudolfo@gmail.com"], ["owner_name", "Rudolfo Borges"], ["plate", "NZC7079"], ["price", 35000.0], ["updated_at", "2014-04-22 19:30:14.957314"]]
+  [1m[35m (329.0ms)[0m  commit transaction
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 424ms (Views: 2.0ms | ActiveRecord: 333.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:30:34 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:30:34 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:30:34 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:30:34 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:30:34 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:30:34 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:30:34 -0300
+Processing by CarsController#index as JSON
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "cars" ("created_at", "manufacturer", "model", "owner_email", "owner_name", "plate", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-04-22 19:30:34.894454"], ["manufacturer", "Fiat"], ["model", "Punto"], ["owner_email", "oliveira.rudolfo@gmail.com"], ["owner_name", "Rudolfo Borges"], ["plate", "NZC7078"], ["price", 35000.0], ["updated_at", "2014-04-22 19:30:34.894454"]]
+  [1m[35m (4.0ms)[0m  commit transaction
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 44ms (Views: 12.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:36:14 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:36:14 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:36:14 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:36:14 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:36:14 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:36:14 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:36:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:36:17 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:36:17 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:36:17 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:36:17 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:36:17 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:36:51 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:36:51 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:36:51 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:36:51 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:36:51 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:36:52 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:36:52 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:38:59 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:38:59 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:38:59 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:38:59 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:38:59 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:38:59 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:38:59 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:41:27 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:41:27 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:41:27 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:41:27 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:41:27 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:41:28 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:41:28 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:50:09 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:50:09 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:50:09 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:50:09 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:50:09 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:50:10 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:50:10 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 16:52:26 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 16:52:26 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 16:52:26 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 16:52:26 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 16:52:26 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 16:52:26 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 16:52:26 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 16:52:44 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"sadasdadsa", "price"=>"2.131,2312", "plate"=>"qweqweqw", "owner_name"=>"213123123", "owner_email"=>"teste@teste.com.br", "car"=>{"model"=>"sadasdadsa", "price"=>"2.131,2312", "plate"=>"qweqweqw", "owner_name"=>"213123123", "owner_email"=>"teste@teste.com.br"}}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (61.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:01:07 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:01:07 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:01:07 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:01:07 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:01:07 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:01:07 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:01:07 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:04:20 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:04:21 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:04:21 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:04:21 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:04:21 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:04:21 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:04:24 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:04:24 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:04:24 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:04:24 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:04:24 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:04:24 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:05:20 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:05:20 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:05:20 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:05:20 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:05:20 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:05:20 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:07:08 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:07:08 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:07:08 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:07:08 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:07:08 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:07:08 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:09:24 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:09:24 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:09:25 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:09:25 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:09:25 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:09:25 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:10:31 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:10:32 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:10:32 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:10:32 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:10:32 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:10:32 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:10:38 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:10:38 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:10:38 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:10:38 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:10:38 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:10:38 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:10:38 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (1.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:10:53 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:10:53 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:10:54 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:10:54 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:10:54 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:10:54 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:10:54 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:10:55 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:10:55 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:10:55 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:10:55 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:10:55 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:10:56 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:10:56 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:13:04 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:13:04 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:13:04 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:13:04 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:20:39 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:20:39 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:20:39 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:20:39 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:20:39 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:20:40 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:20:40 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:20:59 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"qwewe", "price"=>"1.231,23132", "plate"=>"ewqweqe", "owner_name"=>"123123123", "owner_email"=>"teste@teste.com.br", "car"=>{"model"=>"qwewe", "price"=>"1.231,23132", "plate"=>"ewqweqe", "owner_name"=>"123123123", "owner_email"=>"teste@teste.com.br"}}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 2ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:23:05 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:23:10 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:23:36 -0300
+Processing by CarsController#create as JSON
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 2ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (35.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (98.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:24:05 -0300
+Processing by CarsController#create as JSON
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (108.0ms)
+
+
+Started PUT "/cars" for 127.0.0.1 at 2014-04-22 17:24:32 -0300
+
+ActionController::RoutingError (No route matches [PUT] "/cars"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (43.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (161.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:24:37 -0300
+Processing by CarsController#create as JSON
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (92.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:24:50 -0300
+Processing by CarsController#create as JSON
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (89.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:29:49 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CarsController#create as JSON
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 32ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:30:01 -0300
+Processing by CarsController#create as JSON
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 3ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:32:09 -0300
+Processing by CarsController#create as JSON
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (54.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:33:42 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CarsController#create as JSON
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 32ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:34:19 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:34:19 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:34:19 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:34:19 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:34:19 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:34:19 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (4.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:34:19 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (1.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 31ms (Views: 20.0ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/cars%20-i" for 127.0.0.1 at 2014-04-22 17:37:09 -0300
+
+ActionController::RoutingError (No route matches [POST] "/cars%20-i"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (65.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (152.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:38:47 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:38:47 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:38:47 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:38:48 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:38:48 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:38:48 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:38:48 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 35ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:39:04 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"dqweqweqewe", "price"=>"31.231,2312", "plate"=>"dqwdq", "owner_name"=>"1312312312", "owner_email"=>"teste@teste.com.br", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=", "car"=>{"model"=>"dqweqweqewe", "price"=>"31.231,2312", "plate"=>"dqwdq", "owner_name"=>"1312312312", "owner_email"=>"teste@teste.com.br"}}
+Completed 500 Internal Server Error in 6ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/cars_controller.rb:19:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:40:28 -0300
+Processing by CarsController#create as JSON
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:40:50 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"dqweqweqewe", "price"=>"31.231,2312", "plate"=>"dqwdq", "owner_name"=>"1312312312", "owner_email"=>"teste@teste.com.br", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=", "car"=>{"model"=>"dqweqweqewe", "price"=>"31.231,2312", "plate"=>"dqwdq", "owner_name"=>"1312312312", "owner_email"=>"teste@teste.com.br"}}
+Completed 500 Internal Server Error in 4ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/cars_controller.rb:19:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:46:26 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:46:27 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:46:27 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:46:27 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:46:27 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:46:27 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:46:27 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:46:35 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"_json"=>[{"model"=>"dwdqqweqw", "price"=>"3.213,231", "plate"=>"212312", "owner_name"=>"12312312", "owner_email"=>"123123123", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E="}], "car"=>{}}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:48:54 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:48:54 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:48:54 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:48:54 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:48:54 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:48:54 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:48:54 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:49:06 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"dadasdas", "price"=>"213,2312", "plate"=>"eeqweqw", "owner_name"=>"qweqe", "owner_email"=>"qewqeqew", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=", "car"=>{"model"=>"dadasdas", "price"=>"213,2312", "plate"=>"eeqweqw", "owner_name"=>"qweqe", "owner_email"=>"qewqeqew"}}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/cars_controller.rb:19:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (58.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:49:47 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"dadasdas", "price"=>"213,2312", "plate"=>"eeqweqw", "owner_name"=>"qweqe", "owner_email"=>"qewqeqew", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=", "car"=>{"model"=>"dadasdas", "price"=>"213,2312", "plate"=>"eeqweqw", "owner_name"=>"qweqe", "owner_email"=>"qewqeqew"}}
+Completed 500 Internal Server Error in 2ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/cars_controller.rb:20:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:50:07 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"dadasdas", "price"=>"213,2312", "plate"=>"eeqweqw", "owner_name"=>"qweqe", "owner_email"=>"qewqeqew", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=", "car"=>{"model"=>"dadasdas", "price"=>"213,2312", "plate"=>"eeqweqw", "owner_name"=>"qweqe", "owner_email"=>"qewqeqew"}}
+Completed 500 Internal Server Error in 20ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/cars_controller.rb:20:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (57.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:53:45 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:53:45 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:53:45 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:53:45 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:53:45 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:53:45 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:53:46 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:54:01 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"qweqwe", "price"=>"123,3123", "plate"=>"123123", "owner_name"=>"123123", "owner_email"=>"21313123", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=", "car"=>{"model"=>"qweqwe", "price"=>"123,3123", "plate"=>"123123", "owner_name"=>"123123", "owner_email"=>"21313123"}}
+Completed 500 Internal Server Error in 3ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/cars_controller.rb:20:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:54:18 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:54:19 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:54:19 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:54:19 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:54:19 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:54:19 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:54:19 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 18ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:54:27 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:54:27 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:54:27 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:54:27 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:54:27 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:54:27 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:54:28 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 17:54:39 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"qweqwe", "price"=>"1,23123", "plate"=>"asdasda", "owner_name"=>"sdasda", "owner_email"=>"sdasdad", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=", "car"=>{"model"=>"qweqwe", "price"=>"1,23123", "plate"=>"asdasda", "owner_name"=>"sdasda", "owner_email"=>"sdasdad"}}
+Completed 500 Internal Server Error in 3ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/cars_controller.rb:20:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:55:32 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:55:33 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 7ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:55:34 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 9ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:55:35 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:55:37 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:55:38 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 11ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:55:40 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:55:41 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 17ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:55:42 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:55:42 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 13ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:55:44 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:55:44 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 17ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:55:45 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:55:45 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (11.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 21ms (Views: 2.0ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:55:46 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 19ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:55:52 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:55:53 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:57:45 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:57:45 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:57:45 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:57:45 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:57:45 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:57:45 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 27ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:57:45 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (1.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:46 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:57:48 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:49 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:57:49 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 15ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:50 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:51 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:52 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 17ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:57:52 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:53 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:57:53 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 5ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:53 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:57:54 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:57:55 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:55 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:57:55 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:56 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:57:56 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:57:57 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:58:22 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:58:23 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:58:23 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:58:23 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:58:23 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:58:23 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:58:23 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:58:28 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 19ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:58:28 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:58:30 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:58:31 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 22ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:58:47 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:58:48 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:58:49 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:58:49 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 5.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:58:50 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:59:10 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 22ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 17:59:28 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 17:59:28 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 17:59:28 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 17:59:28 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 17:59:28 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 17:59:28 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 17:59:28 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (1.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:59:29 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:59:30 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:59:31 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:59:32 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 5ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:59:33 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:59:34 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:59:35 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:59:36 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:59:37 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:59:45 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 13ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:59:47 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:59:47 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 13ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 17:59:48 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1[0m
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 17:59:48 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 9ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:03:12 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:03:12 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:03:12 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:03:12 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:03:12 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:03:12 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:03:15 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:03:15 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:03:15 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:03:15 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:03:15 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:03:15 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:03:21 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:03:21 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:03:21 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:03:21 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:03:21 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:03:22 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 18:03:22 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 18:03:30 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"ddqweqwe", "price"=>"21,34321", "plate"=>"eqweqwe", "owner_name"=>"eqwqewq", "owner_email"=>"eqweqe", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=", "car"=>{"model"=>"ddqweqwe", "price"=>"21,34321", "plate"=>"eqweqwe", "owner_name"=>"eqwqewq", "owner_email"=>"eqweqe"}}
+Completed 500 Internal Server Error in 7ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/cars_controller.rb:20:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:22:40 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:22:40 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:22:40 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:22:40 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:22:40 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:22:41 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 18:22:41 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 22ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:23:47 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:23:47 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:23:47 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:23:47 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:23:48 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:23:48 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 18:23:48 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 18:24:02 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"model"=>"qdqdwqw", "price"=>"12,23123", "plate"=>"qweqewe", "owner_name"=>"qweqweqwe", "owner_email"=>"wqeqweqewwe", "authenticity_token"=>"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=", "car"=>{"model"=>"qdqdwqw", "price"=>"12,23123", "plate"=>"qweqewe", "owner_name"=>"qweqweqwe", "owner_email"=>"wqeqweqewwe"}}
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `safe_params' for #<CarsController:0x37aa2a0>):
+  app/controllers/cars_controller.rb:20:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (67.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:26:40 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:26:40 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:26:40 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:26:40 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:26:40 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:26:40 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 18:26:40 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (1.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 14ms (Views: 8.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:26:41 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:26:41 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:26:41 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:26:41 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:26:41 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:26:42 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 18:26:42 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2014-04-22 18:26:51 -0300
+Processing by CarsController#create as JSON
+  Parameters: {"car"=>"{\"model\":\"dsadasd\",\"price\":\"21,33123\",\"plate\":\"1231\",\"owner_name\":\"3123123123\",\"owner_email\":\"213123123132\",\"authenticity_token\":\"wSi/7c5QyPSpZXMOO5EJB4YCsAVR9H9ODV2DicMwS6E=\"}"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 2ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.0) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (54.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:27:22 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:27:22 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:27:22 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:27:22 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:27:22 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:27:22 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (2.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 18:27:22 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:27:44 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:27:44 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:27:44 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:27:44 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:27:44 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:27:45 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 18:27:45 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 18:27:46 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 10ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 18:27:46 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 18:27:50 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-22 18:27:52 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-22 18:27:52 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-22 18:27:52 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-22 18:27:52 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-22 18:27:52 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-22 18:27:52 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (0.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-22 18:27:52 -0300
+Processing by CarsController#index as JSON
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT "cars".* FROM "cars"   ORDER BY manufacturer, model[0m
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 18:27:53 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 12ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 18:27:55 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 18:27:55 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 12ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 18:27:56 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 19ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7079" for 127.0.0.1 at 2014-04-22 18:27:56 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7079"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7079' LIMIT 1
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 18:27:57 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (0.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 18:27:58 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (0.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 18:27:58 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[36mCar Load (1.0ms)[0m  [1mSELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1[0m
+Completed 200 OK in 16ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cars/NZC7078" for 127.0.0.1 at 2014-04-22 18:27:59 -0300
+Processing by CarsController#show as JSON
+  Parameters: {"id"=>"NZC7078"}
+  [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
+Completed 200 OK in 10ms (Views: 0.0ms | ActiveRecord: 1.0ms)
