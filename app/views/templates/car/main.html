@@ -12,30 +12,51 @@
 	<div ng-show="car != null">
 		<h3>{{car.model}}</h3>
 		<hr/>
-		<form ng-submit="save()" class="form-horizontal" >
-			<div class="form-group">
-				<label for="model">Model</label>
-				<input id="model" name="model" type="text" ng-model="car.model" class="form-control">
+		<form name="frm" ng-submit="save()" class="form-horizontal">
+			<div class="form-group" ng-class="!frm.model.$dirty ? '' : frm.model.$valid ? 'has-success has-feedback' : 'has-error has-feedback'">
+				<label for="model" class="col-sm-2 control-label">Model</label>
+				<div class="col-sm-6">
+					<input id="model" name="model" type="text" ng-model="car.model" class="form-control" 
+						ng-minlength="2" ng-maxlength="100" required>
+					<span class="glyphicon glyphicon-ok form-control-feedback" ng-show="frm.model.$dirty"></span>
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="manufacturer">Manufacturer</label>
-				<input id="manufacturer" name="manufacturer" type="text" ng-model="car.manufacturer" class="form-control">
+			<div class="form-group" ng-class="!frm.manufacturer.$dirty ? '' : frm.manufacturer.$valid ? 'has-success has-feedback' : 'has-error has-feedback'">
+				<label for="manufacturer" class="col-sm-2 control-label">Manufacturer</label>
+				<div class="col-sm-6">
+					<input id="manufacturer" name="manufacturer" type="text" ng-model="car.manufacturer" class="form-control"
+						ng-minlength="2" ng-maxlength="100" required>
+					<span class="glyphicon glyphicon-ok form-control-feedback" ng-show="frm.manufacturer.$dirty"></span>
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="price">Price</label>
-				<input id="price" name="price" type="text" ng-model="car.price" class="form-control">
+			<div class="form-group" ng-class="!frm.price.$dirty ? '' : frm.price.$valid ? 'has-success has-feedback' : 'has-error has-feedback'">
+				<label for="price" class="col-sm-2 control-label">Price</label>
+				<div class="col-sm-3">
+					<input id="price" name="price" type="text" ng-model="car.price" class="form-control" required>
+					<span class="glyphicon glyphicon-ok form-control-feedback" ng-show="frm.price.$dirty"></span>
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="plate">Plate</label>
-				<input id="plate" name="plate" type="text" ng-model="car.plate" class="form-control">
+			<div class="form-group" ng-class="!frm.plate.$dirty ? '' : frm.plate.$valid ? 'has-success has-feedback' : 'has-error has-feedback'">
+				<label for="plate" class="col-sm-2 control-label">Plate</label>
+				<div class="col-sm-3">
+					<input id="plate" name="plate" type="text" ng-model="car.plate" class="form-control" required>
+					<span class="glyphicon glyphicon-ok form-control-feedback" ng-show="frm.plate.$dirty"></span>
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="owner-name">Owner Name</label>
-				<input id="owner-name" name="owner-name" type="text" ng-model="car.owner_name" class="form-control">
+			<div class="form-group" ng-class="!frm.ownername.$dirty ? '' : frm.ownername.$valid ? 'has-success has-feedback' : 'has-error has-feedback'">
+				<label for="owner-name" class="col-sm-2 control-label">Owner Name</label>
+				<div class="col-sm-6">
+					<input id="owner-name" name="ownername" type="text" ng-model="car.owner_name" class="form-control" required>
+					<span class="glyphicon glyphicon-ok form-control-feedback" ng-show="frm.ownername.$dirty"></span>
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="owner-email">Owner Email</label>
-				<input id="owner-email" name="owner-email" type="email" ng-model="car.owner_email" class="form-control">
+			<div class="form-group" ng-class="!frm.owneremail.$dirty ? '' : frm.owneremail.$valid ? 'has-success has-feedback' : 'has-error has-feedback'">
+				<label for="owner-email" class="col-sm-2 control-label">Owner Email</label>
+				<div class="col-sm-6">
+					<input id="owner-email" name="owneremail" type="email" ng-model="car.owner_email" class="form-control" 
+						required>
+					<span class="glyphicon glyphicon-ok form-control-feedback" ng-show="frm.owneremail.$dirty"></span>
+				</div>
 			</div>
 		</form>
 	</div>
