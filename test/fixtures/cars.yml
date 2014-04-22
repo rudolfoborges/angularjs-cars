@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  manufacturer: MyString
+  model: MyString
+  price: 
+  plate: MyString
+  owner_name: MyString
+  owner_email: MyString
+
+two:
+  manufacturer: MyString
+  model: MyString
+  price: 
+  plate: MyString
+  owner_name: MyString
+  owner_email: MyString
