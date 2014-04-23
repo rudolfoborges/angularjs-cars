@@ -27,7 +27,6 @@ app.controller('CarController', ['$scope', 'CarService', function($scope, carSer
 			owner_email: item.owner_email,
 			authenticity_token: window._token
 		};
-		console.log(angular.toJson(car));
 		carService.save(angular.toJson(car));
 	}
 

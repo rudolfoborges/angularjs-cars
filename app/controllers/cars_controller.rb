@@ -16,10 +16,11 @@ class CarsController < ApplicationController
 
 	def create
 		print "!!!!!!!!!!!!!!!!!!!!!!!!!!chegou aqui!!!!!!!!!!!!!!!!!!"
-		print params
-		@car = Car.new(safe_params@car)
+		print params.require(:car)
+		@car = Car.new(params.require(:car))
 		print @car
 		@car.save
+		respond_with(@car)
 	end
 
 end
