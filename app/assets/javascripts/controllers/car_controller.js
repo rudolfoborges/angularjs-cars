@@ -28,7 +28,7 @@ app.controller('CarController', ['$scope', 'CarService', function($scope, carSer
 			authenticity_token: window._token
 		};
 		console.log(angular.toJson(car));
-		carService.save({car: angular.toJson(car)});
+		carService.save(angular.toJson(car));
 	}
 
 	$scope.remove = function(plate){

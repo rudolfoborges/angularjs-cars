@@ -4627,3 +4627,107 @@ Processing by CarsController#show as JSON
   Parameters: {"id"=>"NZC7078"}
   [1m[35mCar Load (1.0ms)[0m  SELECT  "cars".* FROM "cars"  WHERE "cars"."plate" = 'NZC7078' LIMIT 1
 Completed 200 OK in 10ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 09:59:58 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-23 09:59:58 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-23 09:59:58 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-23 09:59:58 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-23 09:59:58 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 10:00:24 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 69ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-23 10:00:24 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-23 10:00:24 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-23 10:00:24 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-23 10:00:24 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 10:01:26 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-23 10:01:26 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-23 10:01:26 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-23 10:01:26 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-23 10:01:26 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 10:02:04 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-23 10:02:05 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-23 10:02:05 -0300
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-23 10:02:05 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-23 10:02:05 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-23 10:03:38 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/car_controller.js" for 127.0.0.1 at 2014-04-23 10:03:38 -0300
+
+
+Started GET "/assets/services/car_service.js" for 127.0.0.1 at 2014-04-23 10:03:38 -0300
+
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2014-04-23 10:03:38 -0300
+
+
+Started GET "/assets/lib/jquery.mask.min.js" for 127.0.0.1 at 2014-04-23 10:03:38 -0300
+
+
+Started GET "/templates/car/main.html" for 127.0.0.1 at 2014-04-23 10:03:41 -0300
+Processing by TemplatesController#template as HTML
+  Parameters: {"path"=>"car/main"}
+  Rendered templates/car/main.html (1.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2014-04-23 10:03:41 -0300
+Processing by CarsController#index as JSON
+  [1m[35mCar Load (0.0ms)[0m  SELECT "cars".* FROM "cars"   ORDER BY manufacturer, model
+Completed 200 OK in 27ms (Views: 12.0ms | ActiveRecord: 0.0ms)
