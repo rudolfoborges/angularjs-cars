@@ -3,24 +3,24 @@ class CarsController < ApplicationController
 	respond_to :json
 
 	def index
-		@cars = Car.order("manufacturer, model")
-		#@car = Car.new(model: "Punto", manufacturer: "Fiat", plate: "NZC7078", price: 35000, owner_name: "Rudolfo Borges", owner_email: "oliveira.rudolfo@gmail.com")
-		#@car.save
-		respond_with(@cars)
+		respond_with Car.order("manufacturer, model")
 	end
 
 	def show
-		@car = Car.find_by_plate(params[:id])
-		respond_with(@car)
+		respond_with Car.find_by_plate(params[:id])
 	end
 
 	def create
-		print "!!!!!!!!!!!!!!!!!!!!!!!!!!chegou aqui!!!!!!!!!!!!!!!!!!"
-		print params.require(:car)
-		@car = Car.new(params.require(:car))
-		print @car
-		@car.save
-		respond_with(@car)
+		respond_with Car.create(car_params)
 	end
+
+	def update
+		respond_with Car.find_by_plate(params[:id]).update_attributes(car_params)
+	end
+
+	private
+		def car_params
+			params.require(:car).permit(:model, :manufacturer, :plate, :price, :owner_name, :owner_email)
+		end
 
 end

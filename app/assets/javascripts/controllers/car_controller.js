@@ -20,14 +20,18 @@ app.controller('CarController', ['$scope', 'CarService', function($scope, carSer
 		var car = {
 			id: item.id,
 			model: item.model,
-			manufactorer: item.manufactorer,
+			manufacturer: item.manufacturer,
 			price: item.price,
 			plate: item.plate,
 			owner_name: item.owner_name,
 			owner_email: item.owner_email,
 			authenticity_token: window._token
 		};
-		carService.save(angular.toJson(car));
+		if(item.id != null){
+			carService.update({id: item.plate, car: angular.toJson(car)});
+		} else {
+			carService.save(angular.toJson(car));
+		}
 	}
 
 	$scope.remove = function(plate){
